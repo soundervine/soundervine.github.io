@@ -1,6 +1,7 @@
     {% include head.html %}
     
-    <body class="d-flex h-100 text-center">
+    <body class="d-flex h-100 text-center bg-verticle-twotone">
+        
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -8,25 +9,27 @@
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             {% include header.html %}
 
-            <main class="px-3">
+            <main class="p-5 m-5 rounded shadow-lg">
                 <h3 class="text-uppercase display-4 mb-0 pb-0">{{ site.title }}</h3>
-                <h1 class="text-uppercase display-1 pt-0">{{ site.name }}</h1>
+                <h1 class="text-uppercase display-1 pt-0">
+                    <img class="" src="assets/sd-logo.svg" height="128" title="{{ site.name }}">
+                </h1>
                 <h6 class="text-uppercase fs-2 fw-lighter">{{ site.strapline }}</h6>
                 <p class="lead">
                     {{ content }}  
                 </p>
 
-                <p class="lead fw-semibold fs-4 lh-1 fw-lighter">
-                    With economic troubles growing, and more recessions to come, it's imperative to keep things at a constant pace and to not suffer from inefficiency, disorganisation, and careers at the mercy of bureaucracy. The <span class="be-logo">'be'</span> slogan aims to promote and put control into our hands for creative networking, so the best ideas can be branded and formed by a production team to create entertainment-based marketing solutions as well as market entrance strategies.
-                </p>
+                <div class="px-5">
+                    <p class="lh-sm fs-5 fw-lighter px-5">
+                        <span class="ma-logo-plain fw-semibold">Malarkes Entertainment</span> is a leading diverse and innovative entertainment company representing unconventional creative talent - from models and talent acts, to aspiring hairstylists, makeup artists, fashion stylists, photographers, and other creative talent in creative fields.
+                    </p>
 
-                <p class="lh-1 fs-5 fw-lighter">
-                    <span class="fw-semibold">Malarkes Entertainment</span> is a leading diverse and innovative entertainment company representing unconventional creative talent - from models and talent acts, to aspiring hairstylists, makeup artists, fashion stylists, photographers, and other creative talent in creative fields.
-                </p>
+                    <p class="lh-sm fs-5 fw-lighter px-5">
+                        At <span class="ma-logo-plain fw-semibold">Malarkes</span>, we pride ourselves on helping people to achieve their goals and maximise their potential, hence our synonymous catchphrase, <span class="be-logo fw-semibold">'be'</span> We have an experienced and dedicated team whose mission is to provide a bespoke representation for its talents and the highest quality of service to its clients. Our mission is to be the premier platform for emerging talent; A Movement as well as a Revolutionary experience that integrates realism with digital innovation to inspire and connect the art communities. We are an agency that pushes boundaries with creative and thought provoking content.
+                    </p>
+                </div>
 
-                <p class="lh-1 fs-5 fw-lighter">
-                    At <span class="fw-semibold">Malarkes</span>, we pride ourselves on helping people to achieve their goals and maximise their potential, hence our synonymous catchphrase, <span class="be-logo fw-semibold">'be'</span>. We have an experienced and dedicated team whose mission is to provide a bespoke representation for its talents and the highest quality of service to its clients. Our mission is to be the premier platform for emerging talent; A Movement as well as a Revolutionary experience that integrates realism with digital innovation to inspire and connect the art communities. We are an agency that pushes boundaries with creative and thought provoking content.
-                </p>
+                
 
                 <p class="lead">
                 <!-- <a href="#" class="btn btn-lg btn-dark rounded-0">Learn more</a> -->

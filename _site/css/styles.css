@@ -6,3 +6,9 @@ body {
   font-family: "Segoe UI Emoji"
 }
 
+.bg-verticle-twotone {
+  background-color: #c7c7c7;
+  background-image: -webkit-linear-gradient(7.5deg, #e8e8e8 50%, #ffffff 50%);
+  min-height: 500px;
+}
+
