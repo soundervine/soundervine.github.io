@@ -1,0 +1,9 @@
+# theme: jekyll-theme-minimal
+name: Soundervine
+title: Late Night Live
+strapline: "Greenwich Creekside's #1 Nightlife"
+description: "Malarkes Entertainment, presents 'Late Night Live Soundervine' - an exclusive contemporary music showcase for unsigned & established artists."
+imprint: Marlarkes Ent.
+site_path: https://soundervine.github.io/
+include: ['_pages']
+relative_permalinks: false

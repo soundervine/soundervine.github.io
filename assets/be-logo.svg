@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1.01583,0,0,1.01591,-2.92968,-5.52439)">
+        <path d="M396.638,5.61C613.85,5.61 790.199,181.959 790.199,399.171C790.199,616.383 613.85,792.732 396.638,792.732C179.426,792.732 3.077,616.383 3.077,399.171C3.077,181.959 179.426,5.61 396.638,5.61ZM396.638,74.78C575.673,74.78 721.024,220.136 721.024,399.171C721.024,578.206 575.673,723.562 396.638,723.562C217.603,723.562 72.252,578.206 72.252,399.171C72.252,220.136 217.603,74.78 396.638,74.78Z" style="fill:rgb(71,39,105);"/>
+    </g>
+    <g transform="matrix(37.0377,0,0,37.0377,-6001.58,-19158.5)">
+        <text x="165.898px" y="531.945px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:12px;fill:rgb(71,39,105);stroke:rgb(71,39,105);stroke-width:0.03px;">b<tspan x="173.048px " y="531.945px ">e</tspan></text>
+    </g>
+</svg>
